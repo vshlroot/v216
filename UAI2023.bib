@@ -16,7 +16,7 @@
 	editor = {Evans, Robin J. and Shpitser, Ilya},
 	end = {2023-08-04},
 	name = {Uncertainty in Artificial Intelligence},
-	published = {2023-08-17},
+	published = {2023-07-02},
 	shortname = {UAI},
 	start = {2023-07-31},
 	volume = {216},
@@ -384,7 +384,7 @@
 
 @inproceedings{donnat23a,
 	abstract = {By recursively summing node features over entire neighborhoods, spatial graph convolution operators have been heralded as key to the success of Graph Neural Networks (GNNs). Yet, despite the multiplication of GNN methods across tasks and applications, the effect of this aggregation operation has yet to be analyzed. In fact, while most recent efforts in the GNN community have focused on optimizing the architecture of the neural network, fewer works have attempted to characterize  <em>(a)  the different classes of spatial convolution operators</em>, <em>(b) their impact on the geometry of the embedding space</em>, and <em>(c) how the choice of a particular convolution should relate to properties of the data</em>. In this paper, we propose to answer all three questions by dividing existing operators into two main classes (<em>symmetrized</em> vs. <em>row-normalized</em> spatial convolutions), and show how these correspond to different implicit biases on the data. Finally, we show that this convolution operator is in fact tunable, and explicit regimes in which certain choices of convolutions --- and therefore, embedding geometries --- might be more appropriate.},
-	author = {Claire Donnat, So Won Jeong},
+	author = {Claire Donnat and So Won Jeong},
 	openreview = {O_CuMJzPx58},
 	pages = {539-548},
 	title = {Studying the Effect of {GNN} Spatial Convolutions On The Embedding Space's Geometry}}
@@ -686,7 +686,7 @@
 
 @inproceedings{jiang23a,
 	abstract = {Recently, neural heuristics based on deep learning have reported encouraging results for solving vehicle routing problems (VRPs), especially on independent and identically distributed (i.i.d.) instances, e.g. <em>uniform</em>. However, in the presence of a distribution shift for the testing instances, their performance becomes considerably inferior. In this paper, we propose a multi-view graph contrastive learning (MVGCL) approach to enhance the generalization across different distributions, which exploits a graph pattern learner in a self-supervised fashion to facilitate a neural heuristic equipped with an active search scheme. Specifically, our MVGCL first leverages graph contrastive learning to extract transferable patterns from VRP graphs to attain the generalizable multi-view (i.e. node and graph) representation. Then it adopts the learnt node embedding and graph embedding to assist the neural heuristic and the active search (during inference) for route construction, respectively. Extensive experiments on randomly generated VRP instances of various distributions, and the ones from TSPLib and CVRPLib show that our MVGCL is superior to the baselines in boosting the cross-distribution generalization performance.},
-	author = {Yuan, Jiang and Zhiguang, Cao and Yaoxin, Wu and Jie, Zhang},
+	author = {Yuan Jiang and Zhiguang Cao and Yaoxin Wu and Jie Zhang},
 	openreview = {eBPSCjGlyw},
 	pages = {984-994},
 	title = {Multi-view graph contrastive learning for solving vehicle routing problems}}
@@ -715,7 +715,7 @@
 
 @inproceedings{kang23a,
 	abstract = {Linear bandit algorithms have been extensively studied and have shown successful in sequential decision tasks despite their simplicity. Many algorithms however work under the assumption that the reward is the sum of linear function of observed contexts and a sub-Gaussian error. In practical applications, errors can be heavy-tailed, especially in financial data. In such reward environments, algorithms designed for sub-Gaussian error may underexplore, resulting in suboptimal regret. In this paper, we relax the reward assumption and propose a novel linear bandit algorithm which works well under heavy-tailed errors as well. The proposed algorithm utilizes Huber regression. When contexts are stochastic with positive definite covariance matrix and the $(1+\delta)$-th moment of the error is bounded by a constant, we show that the high-probability upper bound of the regret is $O(\sqrt{d}T^{\frac{1}{1+\delta}}(\log dT)^{\frac{\delta}{1+\delta}})$, where $d$ is the dimension of context variables, $T$ is the time horizon, and $\delta\in (0,1]$. This bound improves on the state-of-the-art regret bound of the Median of Means and Truncation algorithm by a factor of $\sqrt{\log T}$ and $\sqrt{d}$ for the case where the time horizon $T$ is unknown. We also remark that when $\delta=1$, the order is the same as the regret bound of linear bandit algorithms designed for sub-Gaussian errors. We support our theoretical findings with synthetic experiments.},
-	author = {Minhyun Kang, Gi-Soo Kim},
+	author = {Minhyun Kang and Gi-Soo Kim},
 	openreview = {heGt3ejHYOl},
 	pages = {1027-1036},
 	title = {Heavy-tailed linear bandit with {H}uber regression}}
@@ -1029,7 +1029,7 @@
 
 @inproceedings{narayana23a,
 	abstract = {We study the design of caching policies in applications such as serverless computing where there is not a fixed size cache to be filled, but rather there is a cost associated with the time an item stays in the cache.  We present a model for such caching policies which captures the trade-off between this cost and the cost of cache misses. We characterize optimal caching policies in general and apply this characterization by deriving a closed form for Hawkes processes. Since optimal policies for Hawkes processes depend on the history of arrivals, we also develop history-independent policies which achieve near-optimal average performance. We evaluate the performances of the optimal policy and approximate polices using simulations and a data trace of Azure Functions, Microsoft's FaaS (Function as a Service) platform for serverless computing},
-	author = {Sushirdeep Narayana, Ian A. Kash},
+	author = {Sushirdeep Narayana and Ian A. Kash},
 	openreview = {N3vJhR6e59f},
 	pages = {1499-1509},
 	title = {Keep-Alive Caching for the {H}awkes process}}
@@ -1050,7 +1050,7 @@
 
 @inproceedings{nguyen23c,
 	abstract = {Given a (machine learning) classifier and a collection of unlabeled data, how can we efficiently identify misclassification patterns presented in this dataset? To address this problem, we propose a human-machine collaborative framework that consists of a team of human annotators and a sequential recommendation algorithm. The recommendation algorithm is conceptualized as a stochastic sampler that, in each round, queries the annotators a subset of samples for their true labels and obtains the feedback information on whether the samples are misclassified. The sampling mechanism needs to balance between discovering new patterns of misclassification (exploration) and confirming the potential patterns of classification (exploitation). We construct a determinantal point process, whose intensity balances the exploration-exploitation trade-off through the weighted update of the posterior at each round to form the generator of the stochastic sampler. The numerical results empirically demonstrate the competitive performance of our framework on multiple datasets at various signal-to-noise ratios.},
-	author = {Bao Nguyen, Viet Anh Nguyen},
+	author = {Bao Nguyen and Viet Anh Nguyen},
 	openreview = {X5Y69eKdTlN},
 	pages = {1534-1544},
 	title = {Efficient Failure Pattern Identification of Predictive Algorithms}}
@@ -1173,7 +1173,7 @@
 
 @inproceedings{ratnayaka23a,
 	abstract = {Deep graph matching techniques have shown promising results in recent years. In this work, we cast deep graph matching as a contrastive learning task and introduce a new objective function for contrastive mapping to exploit the relationships between matches and non-matches. To this end, we develop a hardness attention mechanism to select negative samples which captures the relatedness and informativeness of positive and negative samples. Further, we propose a novel deep graph matching framework, Stable Graph Matching (StableGM), which incorporates Sinkhorn ranking into a stable marriage algorithm to efficiently compute one-to-one node correspondences between graphs. We prove that the proposed objective function for contrastive matching is both positive and negative informative, offering theoretical guarantees to achieve dual-optimality in graph matching. We empirically verify the effectiveness of our proposed approach by conducting experiments on standard graph matching benchmarks.},
-	author = {Gathika Ratnayaka, Qing Wang, and Yang Li},
+	author = {Gathika Ratnayaka and Qing Wang and Yang Li},
 	openreview = {b9oIkFyFFMG},
 	pages = {1718-1729},
 	title = {Contrastive learning for supervised graph matching}}
@@ -1279,7 +1279,7 @@
 
 @inproceedings{shahin-shamsabadi23a,
 	abstract = {Recent work has shown that an adversary can reconstruct training examples given access to the parameters of a deep learning image classification model. We show that the quality of reconstruction depends heavily on the type of activation functions used. In particular, we show that ReLU activations lead to much lower quality reconstructions compared to smooth activation functions. We explore if this phenomenon is a fundamental property of models with ReLU activations, or if it is a weakness of current attack strategies. We first study the training dynamics of small MLPs with ReLU activations and identify redundant model parameters that do not memorise training examples. Building on this, we propose our Mnemonist method, which is able to detect redundant model parameters, and then guide current attacks to focus on informative parameters to improve the quality of reconstructions of training examples from ReLU models.},
-	author = {Ali Shahin Shamsabadi, Jamie Hayes, Borja Balle and Adrian Weller},
+	author = {Shahin Shamsabadi, Ali and Jamie Hayes and Borja Balle and Adrian Weller},
 	openreview = {AKTUszQKbd},
 	pages = {1879-1888},
 	title = {Mnemonist: Locating Model Parameters that Memorize Training Examples}}
@@ -1301,7 +1301,7 @@
 
 @inproceedings{sharma23b,
 	abstract = {We study the problem of counting the number of directed acyclic graphs in a Markov equivalence class (MEC) that are consistent with <em>background knowledge</em> specified in the form of the directions of some additional edges in the MEC.  A polynomial-time algorithm for the special case of the problem, when no background knowledge  constraints are specified, was given by Wien\"{o}bst, Bannach, and Liskiewicz (AAAI 2021), who also showed that the general case is NP-hard (in fact, \#P-hard).  In this paper, we show that the problem is nevertheless tractable in an interesting class of instances, by establishing that it is ``fixed-parameter tractable'': we give an algorithm that runs in time $O(k! k^2 n^4)$, where $n$ is the number of nodes in the MEC and $k$ is the maximum number of nodes in any maximal clique of the MEC that participate in the specified background knowledge constraints. In particular, our algorithm runs in polynomial time in the well-studied special case of MECs of bounded tree-width or bounded maximum clique size.},
-	author = {Sharma, Vidya Sagar},
+	author = {Vidya Sagar Sharma},
 	openreview = {nSBQENWBwn_},
 	pages = {1911-1920},
 	title = {Counting Background Knowledge Consistent {M}arkov Equivalent Directed Acyclic Graphs}}
@@ -1579,7 +1579,7 @@
 
 @inproceedings{xie23a,
 	abstract = {The need to explain the output of a deep neural network classifier is now widely recognized. While previous methods typically explain a single class in the output, we advocate explaining the whole output, which is a probability distribution over multiple classes. A whole-output explanation can help a human user gain an overall understanding of model behaviour instead of only one aspect of it. It can also provide a natural framework where one can examine the evidence used to discriminate between	competing classes, and thereby obtain contrastive explanations. In this paper, we propose a contrastive whole-output explanation (CWOX) method for image classification, and evaluate it using quantitative metrics and through human subject studies. The source code of CWOX is available at https://github.com/vaynexie/CWOX.},
-	author = {Weiyan, Xie and Xiao-Hui, Li and Zhi, Lin and Leonard K. M., Poon and Caleb Chen, Cao and Nevin L., Zhang},
+	author = {Weiyan Xie and Xiao-Hui Li and Zhi Lin and Leonard K. M. Poon and Caleb Chen Cao and Nevin L. Zhang},
 	openreview = {JZAwU-iSel5},
 	pages = {2335-2345},
 	software = {https://github.com/vaynexie/CWOX},
@@ -1704,7 +1704,7 @@
 
 @inproceedings{zhao23a,
 	abstract = {Identifying the causes of an event, also termed as causal attribution, is a commonly encountered task in many application problems.  Available methods, mostly in Bayesian or causal inference literature, suffer from two main drawbacks: 1) cannot attribute for individuals, and 2) attributing one single cause at a time and cannot deal with the interaction effect among multiple causes. In this paper, based on our proposed new measurement, called conditional counterfactual causal effect (CCCE), we introduce an individual causal attribution method, which is able to utilize the individual observation as the evidence and consider common influence and interaction effect of multiple causes simultaneously. We discuss the identifiability of CCCE and also give the identification formulas under proper assumptions. Finally, we conduct experiments on simulated and real data to illustrate the effectiveness of CCCE and the results show that our proposed method outperforms significantly state-of-the-art methods.},
-	author = {Ruiqi, Zhao and Lei, Zhang and Shengyu, Zhu and Zitong, Lu and Zhenhua, Dong and Chaoliang, Zhang and Jun, Xu and Zhi, Geng and Yangbo, He},
+	author = {Ruiqi Zhao and Lei Zhang and Shengyu Zhu and Zitong Lu and Zhenhua Dong and Chaoliang Zhang and Jun Xu and Zhi Geng and Yangbo He},
 	openreview = {9tIQ2FqhEq},
 	pages = {2519-2528},
 	title = {Conditional counterfactual causal effect for individual attribution}}
