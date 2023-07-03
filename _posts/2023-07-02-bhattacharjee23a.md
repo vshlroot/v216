@@ -29,13 +29,13 @@ lastpage: 172
 page: 163-172
 order: 163
 cycles: false
-bibtex_author: Bhattacharjee, A. and Vijayan, S. and Juneja, S.
+bibtex_author: Bhattacharjee, Anirban and Vijayan, Sushant and Juneja, Sandeep
 author:
-- given: A.
+- given: Anirban
   family: Bhattacharjee
-- given: S.
+- given: Sushant
   family: Vijayan
-- given: S.
+- given: Sandeep
   family: Juneja
 date: 2023-07-02
 address:
