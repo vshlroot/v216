@@ -12,8 +12,10 @@ For details of what is required to submit a proceedings please check https://pro
 
 
 
+Published as Volume 216 by the Proceedings of Machine Learning Research on 02 July 2023.
+
 Volume Edited by:
-  * Robin Evans
+  * Robin J. Evans
   * Ilya Shpitser
 
 Series Editors:
